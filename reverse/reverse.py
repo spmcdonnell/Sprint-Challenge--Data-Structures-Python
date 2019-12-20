@@ -47,13 +47,13 @@ class LinkedList:
         # TO BE COMPLETED
         if self.head != None:
             current_node = self.head
-            next = current_node.next_node
+            next = current_node.get_next()
 
             while next != None:
                 previous_node = current_node
 
                 current_node = next
                 self.head = next
-                next = current_node.next_node
+                next = current_node.get_next()
 
-                current_node.next_node = previous_node
+                current_node.set_next(previous_node)
