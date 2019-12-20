@@ -70,7 +70,7 @@ Six seconds is an eternity so you've been tasked with speeding up the code. Can 
 
 *You may not use the built in Python list, set, or dictionary for this problem*
 
-(Hint: You might try importing a data structure you built during the week)
+(Hint: You might try importing a data structure you built during the week).
 
 
 #### Task 3. Reverse a Linked List
