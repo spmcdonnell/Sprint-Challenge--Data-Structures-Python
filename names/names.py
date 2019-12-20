@@ -325,6 +325,7 @@ names_bst = BinarySearchTree()
 f = open('names_1.txt', 'r')
 names_1 = f.read().split("\n")
 
+# Build a BST out of one of the lists
 for name in names_1:
     names_bst.insert(name)
 
@@ -335,6 +336,7 @@ duplicates = []
 f = open('names_2.txt', 'r')
 names_2 = f.read().split("\n")
 
+# Loop through the other list and run a search for a match on each value
 for name in names_2:
     if names_bst.contains(name):
         duplicates.append(name)
